@@ -1,0 +1,36 @@
+[Added Associations]
+video/mp4=smplayer.desktop;
+application/pdf=qpdfview.desktop;mupdf.desktop;
+text/plain=leafpad.desktop;geany.desktop
+application/x-ms-dos-executable=wine.desktop
+text/x-matlab=code-oss.desktop;
+inode/directory=pcmanfm.desktop;
+x-scheme-handler/trash=pcmanfm.desktop;
+
+[Default Applications]
+application/pdf=qpdfview.desktop
+text/plain=leafpad.desktop
+image/jpeg=gpicview.desktop
+image/jpg=gpicview.desktop
+image/tiff=gpicview.desktop
+image/bmp=gpicview.desktop
+image/png=gpicview.desktop
+image/gif=gpicview.desktop
+image/x-bmp=gpicview.desktop
+image/x-pcx=gpicview.desktop
+image/x-tga=gpicview.desktop
+image/x-portable-pixmap=gpicview.desktop
+image/x-portable-bitmap=gpicview.desktop
+image/x-targa=gpicview.desktop
+image/x-portable-greymap=gpicview.desktop
+application/pcx=gpicview.desktop
+image/svg+xml=gpicview.desktop
+image/svg-xml=gpicview.desktop
+video/mp4=smplayer.desktop;
+video/x-matroska=smplayer.desktop;
+video/x-msvideo=smplayer.desktop;
+application/vnd.rn-realmedia=smplayer.desktop;
+video/x-flv=smplayer.desktop;
+application/x-ms-dos-executable=wine.desktop;
+text/x-matlab=code-oss.desktop;
+

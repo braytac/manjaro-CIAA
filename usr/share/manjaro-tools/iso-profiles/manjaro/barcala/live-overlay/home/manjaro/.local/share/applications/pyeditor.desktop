@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=EDU-CIAA Python Editor
+Comment=EDU-CIAA Python Editor
+Exec=python2 /home/manjaro/Descargas/educiaa_python_editor-1.5.1/Main.py
+Icon=/home/manjaro/.local/share/emulator.png
+StartupNotify=true
+Type=Application
+Categories=Development;Electronics;

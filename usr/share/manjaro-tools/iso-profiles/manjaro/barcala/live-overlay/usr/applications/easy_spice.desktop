@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+GenericName=easy_spice
+Name=Electronic circuit simulator
+Comment=Electronic circuit simulator. SPICE frontend, using gschem for schematics and ngspice as simulator
+Type=Application
+Exec=easy_spice
+Icon=geda-gschem
+MimeType=application/x-geda-schematic;application/x-geda-symbol;
+Categories=Engineering;Electronics;

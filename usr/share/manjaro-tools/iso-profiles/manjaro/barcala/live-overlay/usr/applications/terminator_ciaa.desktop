@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=CIAA-NXP por consola
+Comment=CIAA-NXP por consola Terminator
+Icon=terminator
+Type=Application
+Categories=Electronics;
+StartupNotify=true
+X-Ubuntu-Gettext-Domain=terminator
+X-Ayatana-Desktop-Shortcuts=NewWindow;
+Keywords=terminal;shell;prompt;command;commandline;
+TargetEnvironment=Unity
+Exec=terminator --working-directory=~/Descargas/firmware_v3 -e '/usr/bin/ciaa-nxp.sh; bash'

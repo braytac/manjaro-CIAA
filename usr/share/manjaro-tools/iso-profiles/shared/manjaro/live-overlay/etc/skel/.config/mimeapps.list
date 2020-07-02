@@ -1,0 +1,34 @@
+[Added Associations]
+video/mp4=smplayer.desktop;
+application/pdf=qpdfview.desktop;mupdf.desktop;
+text/plain=leafpad.desktop;geany.desktop
+application/x-ms-dos-executable=wine.desktop
+inode/directory=pcmanfm.desktop;
+x-scheme-handler/trash=pcmanfm.desktop;
+
+[Default Applications]
+application/pdf=qpdfview.desktop
+text/plain=leafpad.desktop
+image/jpeg=viewnior.desktop
+image/jpg=viewnior.desktop
+image/tiff=viewnior.desktop
+image/bmp=viewnior.desktop
+image/png=viewnior.desktop
+image/gif=viewnior.desktop
+image/x-bmp=viewnior.desktop
+image/x-pcx=viewnior.desktop
+image/x-tga=viewnior.desktop
+image/x-portable-pixmap=viewnior.desktop
+image/x-portable-bitmap=viewnior.desktop
+image/x-targa=viewnior.desktop
+image/x-portable-greymap=viewnior.desktop
+application/pcx=viewnior.desktop
+image/svg+xml=viewnior.desktop
+image/svg-xml=viewnior.desktop
+video/mp4=smplayer.desktop;
+video/x-matroska=smplayer.desktop;
+video/x-msvideo=smplayer.desktop;
+application/vnd.rn-realmedia=smplayer.desktop;
+video/x-flv=smplayer.desktop;
+
+

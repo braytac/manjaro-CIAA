@@ -1,0 +1,448 @@
+## Network
+avahi
+networkmanager
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
+net-tools
+lsof
+bind-tools
+nss-mdns # NSS support for mDNS (optdepend for avahi)
+ntp
+mobile-broadband-provider-info
+modemmanager
+openresolv
+openssh
+samba
+manjaro-settings-samba
+usb_modeswitch
+
+## Libraries for Sound/Audio/Video
+alsa-firmware
+alsa-utils
+ffmpeg
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+libdvdcss
+>multilib manjaro-alsa
+manjaro-pulse
+pulseaudio-bluetooth
+pulseaudio-ctl
+pulseaudio-zeroconf
+
+## Connect Packages
+android-tools
+android-udev
+gvfs
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+mtpfs
+udiskie
+udisks2
+
+## AUR Support/Development
+# Missing base-devel packages
+#>extra autoconf
+#>extra automake
+#>extra binutils
+#>extra bison
+#>extra fakeroot
+#>extra flex
+#>extra gcc
+
+>extra >multilib gcc-libs-multilib
+>extra >multilib gcc-multilib
+
+#>extra libtool
+#>extra m4
+#>extra make
+#>extra patch
+#>extra pkg-config
+
+>extra base-devel
+>extra >multilib lib32-flex
+
+# Extra packages for AUR support
+>extra git
+>extra patchutils
+>extra subversion
+
+## Fonts
+cantarell-fonts
+noto-fonts               # default font
+noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+# >extra noto-fonts-emoji
+terminus-font
+ttf-bitstream-vera       # xfce4-terminal default Monospace
+# ttf-dejavu             # Installed as gnome-themes-standard dependency
+>extra ttf-inconsolata
+>extra ttf-indic-otf
+>extra ttf-liberation
+>extra ttf-droid
+
+## Games
+#>x86_64 >extra steam-manjaro
+
+## Package management
+#>extra apparmor
+#>extra gnome-software-snap
+#>extra flatpak
+#>extra bauh
+pamac-gtk
+#>extra snapd
+
+## Java
+>extra jdk8-openjdk
+>extra jre8-openjdk-headless
+>extra jre8-openjdk
+
+## Printing
+>extra cups
+>extra cups-pdf
+>extra cups-pk-helper
+>extra ghostscript
+>extra gsfonts
+>extra gtk3-print-backends
+>extra hplip
+>extra splix
+>extra system-config-printer
+
+## Optional dependencies for hplip
+>extra pyqt5-common # For hplip
+>extra python-pillow # For hplip
+>extra python-pip # For hplip
+>extra python-pyqt5  # For hplip gui
+>extra python-reportlab # For hplip
+>extra python-matplotlib
+
+
+## Display manager
+lightdm
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+#accountsservice  # Enhanced user accounts handling
+
+artwork-i3  
+conky-i3 
+dmenu-manjaro  
+i3-default-artwork  
+i3-help  
+i3exit   
+i3status-manjaro
+
+## XFCE Group
+exo
+garcon
+thunar
+pcmanfm
+thunar-volman
+tumbler
+xfce4-appfinder
+xfce4-panel
+xfce4-power-manager
+xfce4-session
+xfce4-settings
+xfce4-terminal
+xfconf
+xfdesktop
+xfwm4
+xfwm4-themes
+
+## XFCE Extras
+blueman
+ffmpegthumbnailer  # tumbler - for video thumbnails
+freetype2          # tumbler - for font thumbnails
+>multilib lib32-freetype2
+gksu-polkit
+gnome-keyring      # fix wlan segfault
+libgsf             # tumbler - for ODF thumbnails
+libopenraw         # tumbler - for RAW thumbnails
+light-locker
+network-manager-applet
+menulibre
+orage
+poppler-glib       # tumbler - for PDF thumbnails
+thunar-archive-plugin
+#thunar-shares-plugin
+thunar-shares-plugin-manjaro 
+file-roller
+thunar-media-tags-plugin
+# >extra xfce4-artwork
+xfce4-battery-plugin
+#xfce4-clipman-plugin
+parcellite
+#clipit
+>extra xfce4-cpufreq-plugin
+>extra xfce4-cpugraph-plugin
+>extra xfce4-datetime-plugin
+>extra xfce4-dict
+>extra xfce4-diskperf-plugin
+>extra xfce4-fsguard-plugin
+>extra xfce4-genmon-plugin
+>extra xfce4-mailwatch-plugin
+>extra xfce4-mount-plugin
+>extra xfce4-mpc-plugin
+>extra xfce4-netload-plugin
+>extra xfce4-notes-plugin
+xfce4-notifyd
+xfce4-screenshooter
+>extra xfce4-sensors-plugin
+>extra xfce4-smartbookmark-plugin
+>extra xfce4-systemload-plugin
+xfce4-taskmanager
+>extra xfce4-time-out-plugin
+>extra xfce4-timer-plugin
+>extra xfce4-verve-plugin
+>extra xfce4-wavelan-plugin
+>extra xfce4-weather-plugin
+xfce4-whiskermenu-plugin
+xfce4-xkb-plugin
+xfce4-pulseaudio-plugin
+pavucontrol
+
+## Themes
+>extra manjaro-wallpapers-18.0
+>extra wallpapers-2018
+>extra wallpapers-juhraya
+>extra breath-wallpaper
+gnome-icon-theme
+Windows-10-Icons
+gnome-themes-standard
+gtk-theme-breath
+breath-icon-theme
+matcha-gtk-theme
+xcursor-simpleandsoft
+xcursor-vanilla-dmz-aa
+xcursor-breeze 
+
+## Applications
+>extra gnome-disk-utility
+terminator
+appimagelauncher
+>extra catfish
+dmidecode # optional dependency inxi
+spectre-meltdown-checker
+engrampa
+
+wine
+giflib 
+libpng 
+libldap 
+gnutls 
+mpg123 
+openal 
+v4l-utils 
+libxcomposite 
+libpulse 
+alsa-plugins 
+alsa-lib 
+libjpeg-turbo 
+opencl-icd-loader
+libxslt 
+gst-plugins-base-libs 
+vkd3d
+sdl2 
+gsm 
+libgphoto2 
+libxinerama 
+ncurses
+lib32-giflib
+lib32-libpng 
+lib32-libldap 
+lib32-gnutls 
+lib32-mpg123 
+lib32-openal
+lib32-v4l-utils
+lib32-libpulse 
+lib32-alsa-plugins 
+lib32-alsa-lib 
+lib32-libjpeg-turbo 
+lib32-libxcomposite 
+lib32-libxinerama 
+lib32-ncurses 
+lib32-opencl-icd-loader
+lib32-libxslt
+lib32-gst-plugins-base-libs
+lib32-vkd3d
+lib32-sdl2 
+wine-mono
+winetricks
+wine_gecko
+
+>extra galculator-gtk2
+gcolor2
+>extra gimp
+gparted
+gufw
+>extra audacious
+>extra hexchat
+htop
+qpdfview
+mupdf
+inxi
+hwinfo
+>extra libreoffice-fresh
+>extra libreoffice-fresh-es
+>extra microsoft-office-online-jak
+#>extra freeoffice
+>extra mc
+#manjaro-hello
+manjaro-application-utility
+manjaro-settings-manager
+manjaro-settings-manager-notifier
+#>basic midori
+firefox-developer-edition
+firefox-developer-edition-i18n-es-ar
+flashplugin
+>extra mlocate
+#mousepad
+leafpad
+mugshot
+#>basic parole # media player
+#>extra pidgin
+powertop
+screenfetch
+>extra poppler-data  # CKJ support for pdf
+#>basic sylpheed # mail client
+#>extra thunderbird
+#>extra vlc
+>extra mpv
+>extra smplayer
+>extra smtube
+>extra youtube-dl
+>extra gpicview
+>extra viewnior
+>extra xfburn
+>extra yelp
+>extra mc
+>extra vim
+>extra imagemagick
+
+# Optional dependencies engrampa
+p7zip  # 7Z and ARJ archive support
+unace  # ACE archive support
+unrar  # RAR archive support
+
+## Documentation
+#manjaro-documentation-en
+
+## Settings packages
+>extra manjaro-xfce-gtk3-settings
+>basic manjaro-xfce-gtk3-minimal-settings
+manjaro-browser-settings
+
+## Xorg Input Drivers
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-keyboard
+xf86-input-libinput
+xf86-input-mouse
+xf86-input-void
+
+## Xorg Server and Graphics
+>multilib lib32-libva-intel-driver
+>multilib lib32-libva-mesa-driver
+>multilib lib32-libva-vdpau-driver
+libva-intel-driver
+libva-mesa-driver
+libva-vdpau-driver
+mesa-demos
+>multilib lib32-mesa-demos
+>multilib lib32-wxgtk2
+numlockx
+xdg-user-dirs
+xorg-server
+xorg-twm
+xorg-xinit
+xorg-xkill
+
+## Desktop Utils
+perl-file-mimeinfo
+xdg-utils
+xdg-su
+
+## Misc
+gtkhash-thunar
+manjaro-hotfixes
+squashfs-tools
+zenity
+
+pikaur
+
+librecad
+filelight
+
+
+systemd-swap
+
+### ELECTRO ###
+# PARA CIAA python editor
+pygtksourceview2
+python2-pyserial
+
+code
+
+units
+arduino
+arduino-avr-core
+notepadqq
+geany
+geany-plugins
+meld
+moserial
+kicad
+kicad-library 
+kicad-library-3d
+#kicad-symbols-git
+#kicad-templates-git
+
+eclipse-cpp 
+eclipse-common
+gnuplot
+dia
+
+arm-none-eabi-binutils
+arm-none-eabi-gcc
+arm-none-eabi-gdb
+arm-none-eabi-newlib
+
+cutecom
+scilab-bin
+
+easy_spice
+gnucap
+xnec2c
+oregano
+qucs-git
+#freeroute
+ngspice
+
+octave
+octave-control  
+octave-miscellaneous  
+octave-struct
+octave-general
+octave-symbolic
+octave-io
+octave-plot
+octave-ltfat
+octave-statistics
+octave-communications
+octave-signal
+
+logisim
+#antennavis
+necpp-git
+adms-git
+arduino-avr-core
+simavr
+openocd
+
+

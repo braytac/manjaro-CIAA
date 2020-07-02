@@ -1,0 +1,11 @@
+[Unit]
+Description=LiveMedia Pacman mirror ranking script
+After=graphical.target
+Requires=pacman-init.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/pacman-mirrors -f 5
+
+[Install]
+WantedBy=graphical.target

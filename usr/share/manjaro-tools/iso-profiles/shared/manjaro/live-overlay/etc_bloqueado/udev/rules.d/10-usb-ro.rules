@@ -1,0 +1,2 @@
+ACTION=="add|change",SUBSYSTEM=="usb",ATTRS{removable}=="1",RUN+="/sbin/blockdev --setrw /dev/%k"
+ACTION=="add|change",SUBSYSTEM=="block",ATTRS{removable}=="0",RUN+="/sbin/blockdev --setro /dev/%k"

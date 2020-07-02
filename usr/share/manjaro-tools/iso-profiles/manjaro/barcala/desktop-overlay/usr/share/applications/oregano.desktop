@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=Oregano
+Name[fr]=Oregano
+GenericName=Electrical Engineering Tool
+GenericName[fr]=Outil d'ingéniérie éléctrique
+Comment=Schematic, capture and simulation of electronic circuits
+Comment[fr]=Permet de saisir et de simuler des circuits éléctroniques.
+Exec=oregano %F
+Icon=oregano
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Categories=Science;Education;Engineering;Electronics;
+Encoding=UTF-8
+StartupNotify=true
+MimeType=application/x-oregano;

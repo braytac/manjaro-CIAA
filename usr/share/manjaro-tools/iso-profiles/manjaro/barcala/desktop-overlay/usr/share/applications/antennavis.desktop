@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Antennavis
+Comment=Antenna radiation pattern visualization software
+Exec=/usr/sbin/antennavis
+Icon=logisim
+Terminal=false
+Type=Application
+Categories=Science;Engineering;Electronics;
+MimeType=application/x-logisim

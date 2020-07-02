@@ -1,0 +1,28 @@
+[Desktop Entry]
+Version=1.0
+Name=Firefox
+GenericName=Web Browser
+GenericName[es]=Navegador web
+Comment=Browse the Web
+Comment[es]=Navegue por la web
+Exec=/usr/bin/firefox-developer-edition firefox %u
+Icon=firefox
+Terminal=false
+Type=Application
+MimeType=text/html;text/xml;application/xhtml+xml;application/vnd.mozilla.xul+xml;text/mml;x-scheme-handler/http;x-scheme-handler/https;
+StartupNotify=true
+StartupWMClass=Firefox
+Categories=Network;WebBrowser;
+Keywords=web;browser;internet;
+Actions=new-window;new-private-window;
+X-XFCE-Source=file:///usr/share/applications/firefox-developer-edition.desktop
+
+[Desktop Action new-window]
+Name=New Window
+Name[es_AR]=Nueva ventana
+Exec=/usr/bin/firefox-developer-edition firefox --new-window %u
+
+[Desktop Action new-private-window]
+Name=New Private Window
+Name[es_AR]=Nueva ventana privada
+Exec=/usr/bin/firefox-developer-edition firefox --private-window %u

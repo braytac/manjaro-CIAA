@@ -1,0 +1,26 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Notepadqq
+GenericName=Notepadqq source code editor
+Comment=Edit source code files
+Exec=notepadqq %U
+Terminal=false
+Type=Application
+StartupNotify=false
+MimeType=text/plain;text/html;text/x-php;text/x-c;text/x-shellscript;
+Icon=notepadqq
+Categories=Development;Utility;TextEditor;
+Actions=Window;Document;
+X-XFCE-Source=file:///usr/share/applications/notepadqq.desktop
+
+[Desktop Action Window]
+Name=Open a New Window
+Name[es]=Abrir una ventana nueva
+Exec=notepadqq --new-window
+OnlyShowIn=Unity;
+
+[Desktop Action Document]
+Name=Open a New Document
+Name[es]=Abrir un documento nuevo
+Exec=notepadqq
+OnlyShowIn=Unity;

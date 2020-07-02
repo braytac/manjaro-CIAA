@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=EDU CIAA Emulator
+Comment=Python emulator for EDU-CIAA
+Exec=python2 /home/manjaro/Descargas/educiaa_python_emulator-1.2/EmulatorLauncher.py
+Icon=/home/manjaro/.local/share/emulator.png
+StartupNotify=true
+Type=Application
+Categories=Development;Electronics;

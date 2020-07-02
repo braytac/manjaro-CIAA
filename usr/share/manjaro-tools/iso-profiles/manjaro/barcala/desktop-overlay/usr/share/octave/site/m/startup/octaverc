@@ -1,0 +1,12 @@
+pkg load control;
+pkg load struct;
+pkg load general;
+pkg load symbolic;
+pkg load io;
+pkg load ltfat;
+pkg load statistics;
+pkg load communications;
+pkg load signal;
+pkg list;
+
+
